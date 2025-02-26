@@ -1,10 +1,10 @@
 ### 1. **Tại sao Refs lại cần cho roadmap React?**  
 Refs là một phần quan trọng trong React vì chúng cung cấp một cách để truy cập trực tiếp vào DOM hoặc component con mà không cần thông qua props hay state. Trong roadmap React, việc hiểu và sử dụng Refs giúp bạn:  
 
-- **Quản lý focus, text selection, hoặc media playback** (ví dụ: tự động focus vào input khi component mount).  
-- **Kích hoạt animations** bằng cách thao tác trực tiếp trên DOM.  
-- **Tích hợp với thư viện bên ngoài** (như thư viện chart, video player, v.v.) cần truy cập vào phần tử DOM.  
-- **Giữ giá trị không gây re-render** (ví dụ: đếm số lần click mà không làm component render lại).  
+- Quản lý focus text selection hoặc media playback (ví dụ: tự động focus vào input khi component mount).  
+- Kích hoạt animations bằng cách thao tác trực tiếp trên DOM.  
+- Tích hợp với thư viện bên ngoài (như thư viện chart, video player, v.v.) cần truy cập vào phần tử DOM.  
+- Giữ giá trị không gây re-render (ví dụ: đếm số lần click mà không làm component render lại).  
 
 ---
 
