@@ -1,5 +1,5 @@
 ---
-title: blog4
+title: <4> Rendering - Refs
 date: 2025-02-26 17:25:00
 tags:
 ---
