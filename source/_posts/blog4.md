@@ -1,3 +1,8 @@
+---
+title: blog4
+date: 2025-02-26 17:25:00
+tags:
+---
 ### 1. **Tại sao Refs lại cần cho roadmap React?**  
 Refs là một phần quan trọng trong React vì chúng cung cấp một cách để truy cập trực tiếp vào DOM hoặc component con mà không cần thông qua props hay state. Trong roadmap React, việc hiểu và sử dụng Refs giúp bạn:  
 
