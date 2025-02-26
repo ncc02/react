@@ -1,5 +1,5 @@
 ---
-title: Rendering - Component Life Cycle
+title: <1> Rendering - Component Life Cycle
 date: 2025-02-26 14:14:48
 tags:
 ---
