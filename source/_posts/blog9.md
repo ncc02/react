@@ -1,5 +1,5 @@
 ---
-title: <8> Hooks - useEffect Hook (Basic Hook)
+title: <9> Hooks - useEffect Hook (Basic Hook)
 date: 2025-02-27 09:02:52
 tags:
 ---
