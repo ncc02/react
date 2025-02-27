@@ -1,5 +1,5 @@
 ---
-title: <10> Hooks - useContext Hook (Advance Hook)
+title: <10> Hooks - useContext Hook (Medium Hook)
 date: 2025-02-27 09:08:18
 tags:
 ---
