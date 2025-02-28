@@ -26,7 +26,7 @@ React Router là một thư viện cung cấp các công cụ để định tuy�
 - **Link & NavLink:** Giúp tạo liên kết điều hướng giữa các trang mà không làm tải lại trang.  
 - **Hooks như useParams và useNavigate:** Cho phép truy xuất các tham số từ URL và điều hướng một cách linh hoạt qua code.
 
-Nhờ vào những tính năng này, React Router giúp việc chuyển đổi giữa các “trang” trong ứng dụng trở nên dễ dàng và trực quan. citeturn0search8
+Nhờ vào những tính năng này, React Router giúp việc chuyển đổi giữa các “trang” trong ứng dụng trở nên dễ dàng và trực quan. 
 
 ---
 
@@ -74,7 +74,7 @@ function Navbar() {
 export default Navbar;
 ```
 
-Ở đây, thay vì dùng thẻ `<a>`, sử dụng `<Link>` giúp điều hướng mà không làm tải lại trang, giữ cho trải nghiệm người dùng mượt mà. citeturn0search7
+Ở đây, thay vì dùng thẻ `<a>`, sử dụng `<Link>` giúp điều hướng mà không làm tải lại trang, giữ cho trải nghiệm người dùng mượt mà. 
 
 ---
 
@@ -124,9 +124,9 @@ export default Login;
 - **useNavigate:** Hook này trả về một hàm dùng để điều hướng chương trình. Bạn có thể gọi hàm này và truyền vào đường dẫn mới mà bạn muốn chuyển đến.
 - Trong ví dụ trên, khi người dùng nhấn vào nút "Đăng nhập ngay", hàm `handleLogin` được gọi và thực hiện chuyển hướng tới đường dẫn `/dashboard`.
 
-Việc sử dụng useNavigate giúp bạn điều hướng từ code mà không cần phải sử dụng thành phần `<Link>` hay `<NavLink>`. Đây là một công cụ hữu ích khi bạn muốn chuyển hướng sau một hành động như đăng nhập, gửi form hay các thao tác tương tự. citeturn0search8
+Việc sử dụng useNavigate giúp bạn điều hướng từ code mà không cần phải sử dụng thành phần `<Link>` hay `<NavLink>`. Đây là một công cụ hữu ích khi bạn muốn chuyển hướng sau một hành động như đăng nhập, gửi form hay các thao tác tương tự. 
 
-
+---
 ### Ví dụ 5: Về cách sử dụng hook nâng cao sử dụng hook **useParams** để lấy nhiều tham số từ URL, ví dụ về trang chi tiết sản phẩm:
 
 **Cấu hình định tuyến (App.js):**
@@ -177,7 +177,7 @@ export default ProductDetail;
 
 - Khi người dùng truy cập vào URL như `/category/electronics/product/123`, hook **useParams** sẽ trả về đối tượng:  
   `{ categoryId: 'electronics', productId: '123' }`  
-- Dựa vào các tham số này, component `ProductDetail` có thể hiển thị thông tin cụ thể về sản phẩm dựa trên danh mục và mã sản phẩm. citeturn0search8
+- Dựa vào các tham số này, component `ProductDetail` có thể hiển thị thông tin cụ thể về sản phẩm dựa trên danh mục và mã sản phẩm. 
 
 
 Nhìn chung, việc nắm vững React Router là một phần không thể thiếu trong lộ trình học React, giúp bạn xây dựng các ứng dụng web hiện đại với khả năng điều hướng linh hoạt và trải nghiệm người dùng tốt hơn.
