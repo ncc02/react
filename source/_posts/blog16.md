@@ -9,11 +9,11 @@ React Router là một thư viện định tuyến được thiết kế dành r
 
 ## Tại sao React Router nằm trong lộ trình React?
 
-- **Quản lý định tuyến trong SPA:** Ứng dụng React thường là các SPA, nghĩa là toàn bộ ứng dụng được tải một lần. Việc điều hướng giữa các phần khác nhau của ứng dụng (tương ứng với các URL khác nhau) đòi hỏi một giải pháp định tuyến hiệu quả. React Router giải quyết vấn đề này bằng cách ánh xạ URL tới các component tương ứng mà không cần reload trang, giúp cải thiện hiệu năng và trải nghiệm người dùng. citeturn0search0
+- **Quản lý định tuyến trong SPA:** Ứng dụng React thường là các SPA, nghĩa là toàn bộ ứng dụng được tải một lần. Việc điều hướng giữa các phần khác nhau của ứng dụng (tương ứng với các URL khác nhau) đòi hỏi một giải pháp định tuyến hiệu quả. React Router giải quyết vấn đề này bằng cách ánh xạ URL tới các component tương ứng mà không cần reload trang, giúp cải thiện hiệu năng và trải nghiệm người dùng.
 
-- **Phân tách giao diện theo component:** React khuyến khích chia giao diện thành các component nhỏ và tái sử dụng. React Router giúp liên kết các component đó với các đường dẫn (routes) cụ thể, từ đó tổ chức cấu trúc ứng dụng rõ ràng và dễ bảo trì. citeturn0search1
+- **Phân tách giao diện theo component:** React khuyến khích chia giao diện thành các component nhỏ và tái sử dụng. React Router giúp liên kết các component đó với các đường dẫn (routes) cụ thể, từ đó tổ chức cấu trúc ứng dụng rõ ràng và dễ bảo trì. 
 
-- **Kỹ năng thiết yếu cho developer React:** Hầu hết các ứng dụng React hiện đại đều cần có khả năng điều hướng linh hoạt. Do đó, nắm vững React Router là một bước quan trọng trong việc trở thành một developer React chuyên nghiệp. citeturn0search3
+- **Kỹ năng thiết yếu cho developer React:** Hầu hết các ứng dụng React hiện đại đều cần có khả năng điều hướng linh hoạt. Do đó, nắm vững React Router là một bước quan trọng trong việc trở thành một developer React chuyên nghiệp.
 
 ---
 
@@ -91,11 +91,11 @@ function UserDetail() {
 export default UserDetail;
 ```
 
-Ví dụ này minh họa cách sử dụng hook `useParams` để lấy các tham số động từ URL (ví dụ: `/user/123` sẽ trả về id là 123). citeturn0search8
+Ví dụ này minh họa cách sử dụng hook `useParams` để lấy các tham số động từ URL (ví dụ: `/user/123` sẽ trả về id là 123). 
 
 ---
 
-Dưới đây là một ví dụ đơn giản về cách sử dụng hook **useNavigate** trong React Router (v6):
+### Ví dụ 4: Về cách sử dụng hook **useNavigate** trong React Router (v6):
 
 ```jsx
 import { useNavigate } from 'react-router-dom';
@@ -127,7 +127,7 @@ export default Login;
 Việc sử dụng useNavigate giúp bạn điều hướng từ code mà không cần phải sử dụng thành phần `<Link>` hay `<NavLink>`. Đây là một công cụ hữu ích khi bạn muốn chuyển hướng sau một hành động như đăng nhập, gửi form hay các thao tác tương tự. citeturn0search8
 
 
-Dưới đây là một ví dụ nâng cao sử dụng hook **useParams** để lấy nhiều tham số từ URL, ví dụ về trang chi tiết sản phẩm:
+### Ví dụ 5: Về cách sử dụng hook nâng cao sử dụng hook **useParams** để lấy nhiều tham số từ URL, ví dụ về trang chi tiết sản phẩm:
 
 **Cấu hình định tuyến (App.js):**
 
