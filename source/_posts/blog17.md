@@ -100,3 +100,18 @@ Dưới đây là một ví dụ về cách sử dụng Redux Toolkit để tạ
 
 
 Với Redux Toolkit, việc thiết lập và quản lý trạng thái trong ứng dụng React trở nên đơn giản và hiệu quả hơn, giúp giảm thiểu mã nguồn và tăng tính nhất quán trong cấu trúc code. 
+
+---
+Để sử dụng hiệu quả Redux Toolkit trong các dự án tương lai, bạn nên ghi nhớ các từ khóa và khái niệm quan trọng sau:
+
+1. **configureStore**: Hàm này giúp tạo và cấu hình store Redux một cách dễ dàng, tự động thiết lập các middleware cần thiết và tích hợp Redux DevTools. citeturn0search0
+
+2. **createSlice**: Hàm này kết hợp việc tạo action và reducer trong một cấu trúc duy nhất gọi là "slice", giúp quản lý logic trạng thái liên quan một cách gọn gàng và hiệu quả. citeturn0search1
+
+3. **createAsyncThunk**: Hàm này hỗ trợ xử lý các tác vụ bất đồng bộ (như gọi API) trong Redux, tự động quản lý các trạng thái pending, fulfilled và rejected của promise. citeturn0search1
+
+4. **createEntityAdapter**: Hàm này cung cấp các bộ công cụ để quản lý các tập hợp dữ liệu theo chuẩn hóa, như danh sách các đối tượng, giúp đơn giản hóa việc thao tác với các thực thể trong state. citeturn0search1
+
+5. **useSelector và useDispatch**: Hai hooks này từ thư viện react-redux cho phép bạn truy cập vào state và gửi action trong các functional component của React. citeturn0search1
+
+Nắm vững các từ khóa và khái niệm trên sẽ giúp bạn áp dụng Redux Toolkit một cách hiệu quả trong việc quản lý trạng thái ứng dụng React của mình. 
